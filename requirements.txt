@@ -1,0 +1,8 @@
+# Core packages
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+matplotlib==3.8.4
+
+# TensorFlow for LSTM
+tensorflow==2.15.0
