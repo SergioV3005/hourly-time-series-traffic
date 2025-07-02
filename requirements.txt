@@ -3,3 +3,4 @@ numpy
 matplotlib
 scikit-learn
 tensorflow>=2.10
+statsmodels
