@@ -1,4 +1,6 @@
-
+"""
+ATTENTION: to modify the pipeline (updating similarly to 00)
+"""
 
 import pandas as pd
 import numpy as np
