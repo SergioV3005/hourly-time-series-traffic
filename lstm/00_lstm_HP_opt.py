@@ -22,6 +22,10 @@ df.drop(columns=['Date', 'Hour'], inplace=True, errors='ignore')
 n_missing = df['X'].isna().sum()
 print(f"Missing values to forecast: {n_missing}")
 
+
+print(df)
+exit(0)
+
 df_interp = df.copy()
 df_interp['X'] = df_interp['X'].interpolate(method='time')
 scaler = MinMaxScaler()
