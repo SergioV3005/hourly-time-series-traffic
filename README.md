@@ -12,6 +12,8 @@ Three modeling families are explored and compared:
 
 ## Dataset
 
+<img width="1773" height="761" alt="image" src="https://github.com/user-attachments/assets/238d9f6e-3161-47bb-a6fe-d814adf8c433" />
+
 The dataset consists of 17,544 hourly observations of a congestion indicator:
 
 | Column     | Description                                |
@@ -26,6 +28,8 @@ The dataset consists of 17,544 hourly observations of a congestion indicator:
 ---
 
 ## Exploratory analysis
+
+<img width="777" height="597" alt="image" src="https://github.com/user-attachments/assets/d4944701-99cc-4c73-8625-08c5a6a243c1" />
 
 - **Stationarity**: Verified using the Augmented Dickey-Fuller test (statistic: −15.711, p-value ≈ 0)
 - **Seasonality**:
@@ -89,6 +93,8 @@ Key features:
 ---
 
 ## Model comparison
+
+<img width="899" height="304" alt="image" src="https://github.com/user-attachments/assets/22b96dc3-d37e-4c2a-b417-f1a6462abf8c" />
 
 | Model Type  | Best Configuration                  | Validation MAE |
 |-------------|--------------------------------------|----------------|
