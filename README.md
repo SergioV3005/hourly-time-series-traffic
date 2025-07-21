@@ -111,3 +111,40 @@ Key features:
 3. Hyperparameter tuning for SARIMA and LSTM
 4. Explore advanced DL: Transformers, TCN, hybrid models
 5. Try modeling level shifts, deterministic trends in UCM
+
+## How to reproduce the experiments
+
+Follow these steps to set up the Python environment and reproduce the analysis:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/SergioV3005/hourly-time-series-traffic.git
+cd hourly-time-series-traffic
+```
+
+### 2. Create a Virtual Environment (recommended)
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+On Windows:
+
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+If you add other python modules, you can update the requirements.txt file with 
+
+```bash
+pip freeze > requirements.txt
+```
